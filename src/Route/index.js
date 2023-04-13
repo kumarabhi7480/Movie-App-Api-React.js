@@ -21,7 +21,9 @@ const RouterComponent = () => {
           <Route path="/movies" element={<MoviesContainer />} />
           <Route path="/series" element={<TvSeriesContainer />} />
           <Route path="/search" element={<SearchContainer />} />
-          <Route path='/deails/:movieid/:/movietype' element={<DetailsContainer />} />
+          <Route path='/details/:movieid/:mediatype' element={<DetailsContainer />} />
+        
+       
           <Route path="/contact" element={<ContactContainer />} />
        
             </Routes>

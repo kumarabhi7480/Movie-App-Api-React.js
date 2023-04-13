@@ -2,9 +2,9 @@ import React from 'react';
 
 const DetailsContainer = () => {
     return (
-        <div>
-            <h1>helo Details Container</h1>
-        </div>
+        <>
+            <h1>Helo Details Page</h1>
+        </>
     );
 };
 
