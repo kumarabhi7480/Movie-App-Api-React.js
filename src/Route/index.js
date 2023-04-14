@@ -25,6 +25,7 @@ const RouterComponent = () => {
         
        
           <Route path="/contact" element={<ContactContainer />} />
+          <Route path='/about' element={<AboutContainer />} />
        
             </Routes>
            <FooterComponents />
