@@ -25,7 +25,7 @@ const HeaderComponents = () =>{
 <Navbar.Brand>
     My Entertainment
 </Navbar.Brand>
-<NavbarToggle aria-controls="navbarScroll" />
+<NavbarToggle aria-controls="navbarScroll" variant="success" />
     <Navbar.Collapse id="navbarScroll">
 
         <Nav className="me-aut my-2 my-lg-0" style={{maxHeight:'100px'}}
